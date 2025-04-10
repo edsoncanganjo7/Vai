@@ -8,6 +8,8 @@
     <Version>1.0.0-a.1</Version>
     <Author>Edson Canganjo</Author>
     <Product>Parser</Product>
+    <RepositoryUrl>https://github.com/edsoncanganjo7/Vai</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>
