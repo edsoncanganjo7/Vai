@@ -28,4 +28,4 @@ jobs:
     - name: Push no Nuget
       run: |
         cd out
-        dotnet nuget push *.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/edsoncanganjo/index.json" --skip-duplicate
+        dotnet nuget push *.nupkg --api-key ${{ secrets.GITHUB_TOKEN }} --source "https://nuget.pkg.github.com/edsoncanganjo7/index.json" --skip-duplicate
