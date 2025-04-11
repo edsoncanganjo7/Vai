@@ -4,7 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>Canganjo.LibDemo.Parser</PackageId>
+    <PackageId>Canganjo.DemoLib.Parser</PackageId>
     <Version>1.0.0-a.1</Version>
     <Author>Edson Canganjo</Author>
     <Product>Parser</Product>
