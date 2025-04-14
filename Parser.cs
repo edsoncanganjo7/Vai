@@ -1,17 +1,13 @@
-﻿namespace Vai;
+﻿namespace Vai.Parse;
 
 public class Parser : IParser
 {
-    public int ParseToInt(string value){
-        if(string.IsNullOrWhiteSpace(value)) return 0;
+    public static int ParseToInt(ReadOnlySpan<char> s){
+        if(s.IsEmpty) return 0;
 
-        int number = 0;
-        foreach (char num in value.ToCharArray())
-        {
-            number =+ (int)((uint)num * 10);
-        }
+        if(!int.TryParse(s.ToString(), out int result)) return 0;
 
-        return number;
+        return result;
     }
 }
 

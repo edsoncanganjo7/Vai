@@ -1,8 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vai", "Vai.csproj", "{B579315C-1EA2-A62D-78DA-7D95DDD175A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vai.Parse", "Vai.Parse.csproj", "{B579315C-1EA2-A62D-78DA-7D95DDD175A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vai.Tests", "..\Tests\Vai.Tests.csproj", "{0F939EAD-D5C0-4D7C-BCE1-2669CBFECD92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +17,10 @@ Global
 		{B579315C-1EA2-A62D-78DA-7D95DDD175A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B579315C-1EA2-A62D-78DA-7D95DDD175A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B579315C-1EA2-A62D-78DA-7D95DDD175A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F939EAD-D5C0-4D7C-BCE1-2669CBFECD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F939EAD-D5C0-4D7C-BCE1-2669CBFECD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F939EAD-D5C0-4D7C-BCE1-2669CBFECD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F939EAD-D5C0-4D7C-BCE1-2669CBFECD92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

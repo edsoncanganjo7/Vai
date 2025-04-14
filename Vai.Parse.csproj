@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Canganjo.DemoLib.Parser</PackageId>
-    <Version>1.0.0-a.1.1</Version>
+    <Version>1.0.2</Version>
     <Author>Edson Canganjo</Author>
     <Product>Parser</Product>
     <RepositoryUrl>https://github.com/edsoncanganjo7/Vai</RepositoryUrl>
